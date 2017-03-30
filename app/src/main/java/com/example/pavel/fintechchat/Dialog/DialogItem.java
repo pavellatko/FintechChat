@@ -1,4 +1,4 @@
-package com.example.pavel.fintechchat;
+package com.example.pavel.fintechchat.Dialog;
 
 /**
  * Created by pavel on 3/23/17.
