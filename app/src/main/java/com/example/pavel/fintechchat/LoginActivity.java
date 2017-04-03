@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void startNextScreen() {
         Intent intent = new Intent(this, NavigationActivity.class);
-        intent.putExtra("LOGIN", login.getText().toString());
+        intent.putExtra(getString(R.string.login_intent), login.getText().toString());
         startActivity(intent);
     }
 }

@@ -39,7 +39,7 @@ public class NavigationActivity extends AppCompatActivity
         Intent intent = getIntent();
 
         TextView textView = (TextView) navigationView.getHeaderView(0).findViewById(R.id.nav_header_name_tv);
-        textView.setText(intent.getStringExtra("LOGIN"));
+        textView.setText(intent.getStringExtra(getString(R.string.login_intent)));
 
         replaceFragment(DialogsFragment.newInstance());
     }

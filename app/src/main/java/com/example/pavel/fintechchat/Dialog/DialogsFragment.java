@@ -48,7 +48,7 @@ public class DialogsFragment extends Fragment {
             @Override
             public void onItemClick(int position) {
                 Intent intent = new Intent(getActivity(), MessageActivity.class);
-                intent.putExtra("DIALOG", position);
+                intent.putExtra(getString(R.string.dialog_intent), position);
                 startActivity(intent);
             }
         });
